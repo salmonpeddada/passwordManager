@@ -1,0 +1,154 @@
+.password-manager {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+}
+
+.app-logo {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 2%;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+.add-item {
+  display: flex;
+  background-color: #5763a5;
+  height: 42vh;
+  width: 80%;
+  flex-direction: row;
+  padding: 3%;
+  border-radius: 4px;
+  margin-bottom: 1vh;
+}
+.form-container {
+  background-color: #454f84;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1%;
+  border-radius: 7px;
+}
+
+.add-image {
+  width: 26%;
+  margin-left: 4%;
+}
+
+.add-heading {
+  color: white;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.add-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-bottom: 20px; */
+}
+
+.website {
+  margin-right: 1px;
+  background-color: white;
+  height: 37px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 9px;
+}
+
+.input {
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 40px;
+}
+
+.add-button {
+  background-color: blue;
+  color: white;
+  align-self: flex-end;
+  height: 50px;
+  width: 132px;
+  border-radius: 4px;
+}
+
+.your-passwords {
+  background-color: #5763a5;
+  height: 42vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  border-radius: 4px;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.your-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.hr {
+  border: 1px solid rgb(167, 161, 161);
+}
+
+.no-password-image {
+  height: 150px;
+  align-self: center;
+}
+
+.passwords {
+  color: white;
+  align-self: flex-end;
+}
+.password-count {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-left: 4px;
+  width: 20px;
+}
+
+.password-item-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.no-password-container {
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  /* margin-bottom: 20px; */
+}
+
+.search-icon {
+  height: 35px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-top: 2px;
+}
